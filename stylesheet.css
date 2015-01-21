@@ -1,0 +1,265 @@
+
+
+
+/* sets base style for each page */
+html {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-left: 3em;
+}
+
+
+
+/* set background image per page */
+.home-bg {
+background: url(coffeeshop.jpg) no-repeat center center fixed; 
+background-size: 100%;
+}
+.about-bg {
+background: url(cafemag.jpg) no-repeat center center fixed;
+background-size: 100%;
+}
+.contact-bg {
+background: url(coffeelook.jpg) no-repeat center center fixed;
+background-size: 100%;
+}
+.beans-bg {
+	background: url(imgcoffee.jpg) no-repeat center fixed;
+	background-size: 100%;
+}
+.newsletter-bg {
+	background: url(coffeelook.jpg)  no-repeat center center fixed;
+background-size: 100%;
+}
+
+.jobs-bg {
+	background: url(jobs.jpg)  no-repeat center center fixed;
+background-size: 100%;
+}
+
+.coffee-bg {
+	background: url(coffeelook.jpg)  no-repeat center center fixed;
+background-size: 100%;
+}
+.fp-1 { 
+	
+	
+	background-image: url(coffeelook.jpg);
+
+}
+.fp-2 { 
+	
+	background-color: yellow;
+	/*background-image: url(../images/MAUXT.png);*/
+}
+.fp-3 { 
+	
+	
+	background-image: url(coffeefront.jpg);
+}
+.fp-4 { 
+	
+	background-color: yellow;
+	/*background-image: url(../images/MAUXT.png);*/
+}
+.fp-5 { 
+	
+	background-color: yellow;
+	/*background-image: url(../images/MAUXT.png);*/
+}
+
+
+
+.landing {
+
+	height:40%;
+	width:40%;
+}
+.center{
+	height: 750px;
+	width: 750px;
+
+
+} 
+
+a:hover {
+
+	opacity:0.7;
+
+}
+h1 {
+	/*position: fixed; */
+	font-size: 34px;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	text-align: left;
+	font-family: "arial";
+	background-color: #F4FFFC; 
+	opacity: 0.7;
+	padding: 5px;
+	width: 100%;
+	border-bottom: 15px;
+
+	/*z-index: 10;*/
+
+}
+
+
+
+h2 {
+	padding: 5px;
+	padding-top: 5px;
+	font-family: arial;
+	background-color: #F4FFFC;
+	opacity: 0.7;
+	border-top: 2.5px;
+	border-color: #F4FFFC;
+	margin: 0px;
+	width: 100%;
+	font-size: 15px;
+	text-indent: 3.50em;
+}
+
+nav {
+	
+
+	padding: 5px;
+	padding-top: 5px;
+	font-family: arial;
+	background-color: #F4FFFC;
+	opacity: 0.7;
+	border-top: 3px;
+	border-color: #F4FFFC;
+	margin: 0px;
+	width: 100%;
+	font-size: 15px;
+	font-family:helvetica;
+}
+	
+
+/*#over {
+	width: 100%;
+	z-index: 10;
+}*/
+
+
+li {
+
+	font-family: "futura";
+	display: inline;
+	/*margin-top: 30px;*/
+	
+
+}
+h4 {
+	font-family: arial;
+	background-color: #F4FFFC;
+	opacity: 0.7;
+	padding: 5px;
+	border-left: 8em;
+}
+.leftside {
+
+	padding-top: 1.5em;
+	height:55%;
+	width:55%;
+	float:left;
+}
+.rightsidebox {
+
+	height:450px;
+	width:300px;
+	float:right;
+	overflow: scroll;
+}
+
+	 
+
+p {
+	background-color: #F4FFFC;
+	opacity: 0.7;
+	padding: 5px;
+	font-family: "arial"; 
+	font-color: black;
+	font-size: 15px;
+	
+
+	
+
+
+}
+
+/*footer {
+
+	background-color: #F4FFFC;
+	opacity: 0.7;
+	padding: 5px;
+	font-family: "arial"; 
+	font-color: black;
+	font-size: 9px;
+	margin-top: 93px;
+
+
+}
+*/
+
+}
+
+/*footer experiment
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	padding:10px;
+	background:#5ee;
+}
+#content {
+	padding:10px;
+	padding-bottom:80px;   /* Height of the footer element */
+}
+/* #footer {
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#ee5;
+}*/
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: 12px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 11px; 
+}
+.site-footer {
+  	background-color: #F4FFFC;
+	opacity: 0.7;
+	padding: 5px;
+	font-family: "arial"; 
+	font-color: black;
+	font-size: 10px;
+}
